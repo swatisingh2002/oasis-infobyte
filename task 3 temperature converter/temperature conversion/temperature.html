@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-10">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="container">
+        <img src="flat-style-celsius-and-fahrenheit-thermometers-vector-18474530.jpg" alt="celsius and fahrenheit" width="250" height="400" align="left">
+        <h1 style="color:brown;font-size:40px;">TEMPERATURE CONVERTOR</h1>
+        
+        <label style="font-family: georgia,garmod,serif; font-size: 50px; color: brown;" for="celsius">Celsius  :  </label>
+        <input id="celsius" type="text" placeholder="Enter Celsius">
+        <button class="button" onclick="convertFahrenheit()">Convert Celsius</button>
+        <br><br>
+        <label style="font-family: georgia,garmod,serif; font-size: 50px; color: brown;" for="fahrenheit">Fahrenheit   :</label>
+        <input id="fahrenheit" type="text" placeholder="Enter Fahrenheit">
+        <button class="button" onclick="convertCelsius()">Convert Fahrenheit</button>
+        <br><br>
+        <button class="button" onclick="reset()">Reset</button>
+
+    </div>
+    <script src="custom.js"></script>
+</body>
+</html>
